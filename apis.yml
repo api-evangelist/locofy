@@ -1,0 +1,89 @@
+aid: locofy
+url: https://raw.githubusercontent.com/api-evangelist/locofy/refs/heads/main/apis.yml
+name: Locofy
+kind: company
+description: >-
+  Locofy.ai is an AI-assisted design-to-code platform that converts Figma and
+  Adobe XD designs into production-ready front-end code. The flagship product
+  Locofy Lightning is a Figma/Adobe XD plugin that tags designs and exports
+  responsive code; Locofy Builder is a web-based workspace for refining the
+  generated app, wiring data, and shipping to repositories. Output targets
+  include React, Next.js, React Native, HTML/CSS, and Gatsby. The platform is
+  primarily delivered as plugins and a web app rather than a public REST API.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Design to Code
+  - Figma
+  - Adobe XD
+  - Frontend
+  - AI Code Generation
+  - Low-Code
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: locofy:lightning
+    name: Locofy Lightning
+    description: >-
+      Figma and Adobe XD plugin that tags layers, applies responsive behavior,
+      and exports production-ready front-end code (React, Next.js, HTML/CSS,
+      React Native, Gatsby). Acts as the primary entry point into the Locofy
+      workflow from inside the design tool.
+    humanURL: https://www.locofy.ai/lightning
+    baseURL: https://www.locofy.ai/lightning
+    tags:
+      - Figma Plugin
+      - Adobe XD Plugin
+      - Code Export
+    properties:
+      - type: Website
+        url: https://www.locofy.ai/lightning
+  - aid: locofy:builder
+    name: Locofy Builder
+    description: >-
+      Web-based workspace for refining AI-generated components and screens,
+      wiring data and interactivity, and exporting or syncing code to a Git
+      repository. Sits downstream of Lightning in the design-to-code flow.
+    humanURL: https://builder.locofy.ai/
+    baseURL: https://builder.locofy.ai/
+    tags:
+      - Builder
+      - Web App
+      - Code Sync
+    properties:
+      - type: Website
+        url: https://builder.locofy.ai/
+  - aid: locofy:ai
+    name: Locofy AI
+    description: >-
+      AI layer that powers automatic tagging, responsive layout suggestions,
+      component detection, and code generation across Lightning and Builder.
+      Exposed through the products rather than a standalone public API.
+    humanURL: https://www.locofy.ai/
+    baseURL: https://www.locofy.ai/
+    tags:
+      - AI
+      - Code Generation
+    properties:
+      - type: Website
+        url: https://www.locofy.ai/
+common:
+  - type: Website
+    url: https://www.locofy.ai/
+  - type: Documentation
+    url: https://docs.locofy.ai/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/locofy
+  - type: GitHub
+    url: https://github.com/Locofy
+  - type: Twitter
+    url: https://twitter.com/LocofyAI
+integrations:
+  - name: Figma
+  - name: Adobe XD
+  - name: GitHub
+  - name: GitLab
+  - name: Bitbucket
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
