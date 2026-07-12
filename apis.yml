@@ -68,6 +68,8 @@ apis:
       - type: Website
         url: https://www.locofy.ai/
 common:
+  - type: DomainSecurity
+    url: security/locofy-domain-security.yml
   - type: Website
     url: https://www.locofy.ai/
   - type: Documentation
@@ -78,6 +80,8 @@ common:
     url: https://github.com/Locofy
   - type: Twitter
     url: https://twitter.com/LocofyAI
+  - url: https://www.locofy.ai/blog
+    type: Blog
 integrations:
   - name: Figma
   - name: Adobe XD
