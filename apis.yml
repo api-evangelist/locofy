@@ -74,6 +74,9 @@ apis:
     humanURL: https://www.locofy.ai/
     baseURL: https://www.locofy.ai/
     tags:
+      - Artificial Intelligence
+      - Code Generation
+    tags_raw:
       - AI
       - Code Generation
     properties:
