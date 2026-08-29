@@ -10,6 +10,17 @@ description: >-
   generated app, wiring data, and shipping to repositories. Output targets
   include React, Next.js, React Native, HTML/CSS, and Gatsby. The platform is
   primarily delivered as plugins and a web app rather than a public REST API.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
