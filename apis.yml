@@ -83,7 +83,6 @@ apis:
       component detection, and code generation across Lightning and Builder.
       Exposed through the products rather than a standalone public API.
     humanURL: https://www.locofy.ai/
-    baseURL: https://www.locofy.ai/
     tags:
       - Artificial Intelligence
       - Code Generation
