@@ -1,4 +1,4 @@
-# locofy
+# Locofy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Locofy — convert Figma designs into production-ready code
+Locofy.ai is an AI-assisted design-to-code platform that converts Figma and Adobe XD designs into production-ready front-end code. The flagship product Locofy Lightning is a Figma/Adobe XD plugin that tags designs and exports responsive code; Locofy Builder is a web-based workspace for refining the generated app, wiring data, and shipping to repositories. Output targets include React, Next.js, React Native, HTML/CSS, and Gatsby. The platform is primarily delivered as plugins and a web app rather than a public REST API.
+
+**Areas:** Design to Code · Figma · Adobe XD · Frontend · AI Code Generation · Low-Code
+
+## Locofy on APIs.io
+
+Everything profiled for Locofy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/locofy/](https://apis.io/providers/locofy/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Locofy Lightning](https://apis.io/apis/locofy/lightning/) — Figma and Adobe XD plugin that tags layers, applies responsive behavior, and exports production-ready front-end code (React, Next.js, HTML/CSS, React…
+- [Locofy Builder](https://apis.io/apis/locofy/builder/) — Web-based workspace for refining AI-generated components and screens, wiring data and interactivity, and exporting or syncing code to a Git repository. Sits…
+- [Locofy AI](https://apis.io/apis/locofy/ai/) — AI layer that powers automatic tagging, responsive layout suggestions, component detection, and code generation across Lightning and Builder. Exposed…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Locofy Domain Security](https://apis.io/security/locofy/locofy-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Locofy Plans Pricing](https://apis.io/plans/locofy/locofy-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Locofy Rate Limits](https://apis.io/rate-limits/locofy/locofy-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Locofy Finops](https://apis.io/finops/locofy/locofy-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.locofy.ai/)
+- [Documentation](https://docs.locofy.ai/)
+- [Blog](https://www.locofy.ai/blog)
+
+## API Evangelist rating
+
+**Kin Score 8.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/locofy/](https://apis.io/providers/locofy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Locofy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/locofy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
